@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "VehicleStore2/1.0.0": {
+        "dependencies": {
+          "VehicleClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "VehicleStore2.dll": {}
+        }
+      },
+      "VehicleClassLibrary/1.0.0": {
+        "runtime": {
+          "VehicleClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VehicleStore2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
