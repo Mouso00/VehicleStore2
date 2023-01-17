@@ -11,8 +11,26 @@ namespace VehicleStore2
 
         private void btn_save_Click(object sender, EventArgs e)
         {
-            Vehicle vehicle = new Vehicle(txtbox_maker.Text, txtbox_model.Text);
-            MessageBox.Show("Vehicle details\nMaker: " + vehicle.maker + "\nModel: " + vehicle.model );
+            Store store = new Store();
+            Vehicle vehicle = new Vehicle();
+            store.AddVehicle(vehicle);
+        }
+
+        private void txtbox_maker_TextChanged(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void lst_store_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Store store = new Store();
+            List<Vehicle> vehiclesList = store.GetVehicles();
+            foreach (Vehicle v in vehiclesList)
+            {
+                vehiclesList.
+
+            }
         }
     }
 }

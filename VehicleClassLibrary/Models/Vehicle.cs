@@ -8,15 +8,17 @@ namespace VehicleClassLibrary.Models
 {
     public class Vehicle
     {
-
-        public string maker { get; set; }
-        public string model { get; set; }
-
+        public string Maker { get; set; }
+        public string Model { get; set; }
+        public double Price { get; set; }
         public Vehicle(string maker,string model)
         {
-            this.maker = maker;
-            this.model = model;
+            this.Maker = maker;
+            this.Model = model;
+        }
 
+        public Vehicle()
+        {
         }
     }
 }
